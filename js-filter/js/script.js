@@ -71,8 +71,7 @@ const dieselCars = cars.filter((singleCar) => {
 });
 
 const filteredCars = cars.filter((singleCar) => {
-    // if (singleCar.alimentazione != 'diesel' && singleCar.alimentazione != 'benzina')
-    if(singleCar.alimentazione == 'metano', 'gpl', 'elettrico'){
+    if(singleCar.alimentazione == 'metano' || singleCar.alimentazione == 'gpl' || singleCar.alimentazione == 'elettrico'){
         return true;
     };
 });
